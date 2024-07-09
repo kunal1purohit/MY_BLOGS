@@ -4,7 +4,7 @@ import { login as authlogin } from "../store/authslice";
 import { Button, Input, Logo } from "./index";
 import { useDispatch } from "react-redux";
 import { useForm } from "react-hook-form";
-import service from "../appwrite/auth";
+// import service from "../appwrite/auth";
 import authservice from "../appwrite/auth";
 
 function Login() {
