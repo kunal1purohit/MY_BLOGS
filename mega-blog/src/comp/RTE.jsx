@@ -6,7 +6,7 @@ import { Controller } from 'react-hook-form'
 export default function RTE({name,label,control,defaultvalue=""}) {
   return (
     <div className='w-full'>
-        {label && <label className='inline-block mb-1 pl-1'>{l  abel}</label>}
+        {label && <label className='inline-block mb-1 pl-1'>{label}</label>}
     <Controller
       name={name||"content"}
       control={control}
